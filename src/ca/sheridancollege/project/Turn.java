@@ -2,6 +2,7 @@ package ca.sheridancollege.project;
 
 import java.util.ArrayList;
 import java.util.Scanner;
+import java.util.*;
 
 public interface Turn extends DiscardPile {
 	public default void playerTurn(Player player, ArrayList<Card> discard, ArrayList<Card> deck,

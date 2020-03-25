@@ -2,8 +2,9 @@
 package ca.sheridancollege.project;
 
 import java.util.ArrayList;
+import java.util.*;
 
-public class Game implements DiscardPile, Turn {
+public class Game implements DiscardPile, Turn, Mechanics {
 	private final String gameName;
 	ArrayList<Player> players = new ArrayList<Player>();
 	ArrayList<Card> discard = new ArrayList<Card>();

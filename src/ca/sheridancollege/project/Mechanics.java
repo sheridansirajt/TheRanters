@@ -3,6 +3,7 @@ package ca.sheridancollege.project;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
+import java.util.*;
 
 public interface Mechanics {
 	public default void reverse(ArrayList<Player> players) {
